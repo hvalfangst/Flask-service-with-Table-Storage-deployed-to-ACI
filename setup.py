@@ -8,7 +8,6 @@ try:
         list_of_two_json = json.load(result_file)
         first_json = list_of_two_json[0]
         key = first_json["value"]
-        print(f"Key of first json: {key}")
 
 except json.JSONDecodeError as e:
     print(f"Error loading JSON: {e}")
