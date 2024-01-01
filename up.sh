@@ -7,10 +7,10 @@ echo "Logging in to Azure..."
 az login;
 
 echo "Initializing Terraform..."
-terraform init;
+terraform -chdir=infra init;
 
 echo "Planning Azure resource provisioning..."
-terraform plan;
+terraform -chdir=infra plan;
 
 echo "Applying planned Azure resource provisioning..."
-terraform apply;
+terraform -chdir=infra apply;
