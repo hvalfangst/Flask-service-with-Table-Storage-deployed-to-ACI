@@ -28,3 +28,11 @@ resource "azurerm_storage_table" "hvalfangst" {
   name                 = "hvalfangststoragetable"
   storage_account_name = azurerm_storage_account.hvalfangst.name
 }
+
+resource "azurerm_container_registry" "hvalfangst" {
+  name                = "hvalfangstcontainerregistry"
+  resource_group_name = azurerm_resource_group.hvalfangst.name
+  location            = azurerm_resource_group.hvalfangst.location
+  sku                 = "Basic"
+  admin_enabled       = true
+}
