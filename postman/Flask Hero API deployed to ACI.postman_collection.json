@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "8dda5430-8d40-4a65-a72a-4cb825194191",
-		"name": "Azure Storage Tables",
+		"name": "Flask Hero API deployed to ACI",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29899311"
 	},
@@ -21,12 +21,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/heroes/1",
-					"protocol": "http",
+					"raw": "hvalfangst-flask-table-storage.westeurope.azurecontainer.io/heroes/1",
 					"host": [
-						"localhost"
+						"hvalfangst-flask-table-storage",
+						"westeurope",
+						"azurecontainer",
+						"io"
 					],
-					"port": "5000",
 					"path": [
 						"heroes",
 						"1"
@@ -41,12 +42,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/heroes/1",
-					"protocol": "http",
+					"raw": "hvalfangst-flask-table-storage.westeurope.azurecontainer.io/heroes/1",
 					"host": [
-						"localhost"
+						"hvalfangst-flask-table-storage",
+						"westeurope",
+						"azurecontainer",
+						"io"
 					],
-					"port": "5000",
 					"path": [
 						"heroes",
 						"1"
@@ -61,12 +63,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/heroes",
-					"protocol": "http",
+					"raw": "hvalfangst-flask-table-storage.westeurope.azurecontainer.io/heroes",
 					"host": [
-						"localhost"
+						"hvalfangst-flask-table-storage",
+						"westeurope",
+						"azurecontainer",
+						"io"
 					],
-					"port": "5000",
 					"path": [
 						"heroes"
 					]
@@ -89,12 +92,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/heroes",
-					"protocol": "http",
+					"raw": "hvalfangst-flask-table-storage.westeurope.azurecontainer.io/heroes",
 					"host": [
-						"localhost"
+						"hvalfangst-flask-table-storage",
+						"westeurope",
+						"azurecontainer",
+						"io"
 					],
-					"port": "5000",
 					"path": [
 						"heroes"
 					]
