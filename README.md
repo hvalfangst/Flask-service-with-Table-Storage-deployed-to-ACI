@@ -1,5 +1,9 @@
-# Flask app with Azure Table Storage deployed to ACI
+# Flask service with Azure Table Storage deployed to ACI
 
+Python REST service developed with Flask deployed to Azure Container Instances. 
+The application utilizes Azure Table Storage as means of persistence. 
+Deployment is achieved by GitHub Actions Workflow script enabling CI/CD. 
+Resources provisioned with Terraform.
 
 ## Requirements
 
